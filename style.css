@@ -165,7 +165,10 @@ td {
 .rounded {
   position: absolute;
   z-index: 10000;
-  width: 15px;
-  height: 15px;
+  width: 12.5px;
+  height: 12.5px;
   background: blue;
+}
+.rounded:hover {
+  display: block;
 }
