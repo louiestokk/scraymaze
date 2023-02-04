@@ -39,6 +39,7 @@ table {
 
 div#cover {
   position: none;
+  cursor: none;
 }
 /*for the moving object*/
 #player {
@@ -140,13 +141,13 @@ td {
   justify-content: space-between;
 }
 
-.video-container {
+/* .video-container {
   position: relative;
 }
 .btn-container {
   position: absolute;
-  top: calc(20%);
-  left: calc(41.5%);
+  top: 20%; §
+  left: 41.5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -155,9 +156,16 @@ td {
 @media screen and (min-width: 800px) {
   .btn-container {
     flex-direction: row;
-    left: calc(28%);
+    left: 28%;
   }
   button {
     margin: 0 1rem;
   }
+} */
+.rounded {
+  position: absolute;
+  z-index: 10000;
+  width: 15px;
+  height: 15px;
+  background: blue;
 }

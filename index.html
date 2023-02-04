@@ -3,17 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,user-scalable=no" />
     <title>scary-maze.com</title>
     <link rel="stylesheet" href="style.css" />
     <script defer src="./script.js"></script>
   </head>
   <body>
+    <div class="rounded hide"></div>
     <div id="cover">
       <h4 class="score hide"></h4>
       <table></table>
     </div>
-    <div class="video-container">
+    <!-- <div class="video-container">
       <video src="/src/intro.mp4" autoplay></video>
       <div class="btn-container">
         <button
@@ -28,6 +29,12 @@
           Controls
         </button>
       </div>
-    </div>
+    </div> -->
+    <button id="one" type="button" name="Click to Play" onClick="loadPage();">
+      Start Game
+    </button>
+    <button id="two" type="button" name="controls" onClick="info();">
+      Controls
+    </button>
   </body>
 </html>
